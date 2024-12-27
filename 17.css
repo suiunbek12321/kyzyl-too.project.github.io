@@ -1,0 +1,77 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Сайттын башы */
+.financial-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #2196F3;
+    color: white;
+}
+
+.financial-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.financial-header p {
+    font-size: 18px;
+}
+
+/* Секциялар */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Төлөм системасы */
+.payment-system ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-system li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Төлөмдөрдүн тартиби */
+.payment-procedure ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-procedure li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Байланыш бөлүмү */
+.contact-info p {
+    font-size: 18px;
+}
+
+/* Футер */
+.financial-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.financial-footer p {
+    margin: 0;
+    font-size: 14px;
+}

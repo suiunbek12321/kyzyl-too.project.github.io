@@ -1,0 +1,74 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Башкы бөлүм */
+.blog-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #2196F3;
+    color: white;
+}
+
+.blog-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.blog-header p {
+    font-size: 18px;
+}
+
+/* Макала тизмеси */
+.blog-posts {
+    padding: 20px;
+    margin: 20px;
+}
+
+.blog-post {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    color: #2196F3;
+}
+
+.blog-post p {
+    font-size: 16px;
+}
+
+.blog-post a {
+    font-size: 16px;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+/* Футер */
+.blog-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.blog-footer p {
+    margin: 0;
+    font-size: 14px;
+}

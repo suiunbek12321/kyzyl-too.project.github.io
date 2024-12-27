@@ -1,0 +1,99 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Башкы бөлүм */
+.abiturient-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.abiturient-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.abiturient-header p {
+    font-size: 18px;
+}
+
+/* Курстар бөлүмү */
+.preparation-courses {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.preparation-courses ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.preparation-courses li {
+    margin-bottom: 10px;
+}
+
+/* Каттоо бөлүмү */
+.registration {
+    font-size: 18px;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration label {
+    margin-bottom: 5px;
+}
+
+.registration input,
+.registration select {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #45a049;
+}
+
+/* Байланыш маалыматтары бөлүмү */
+.contact-info {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Футер */
+.abiturient-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.abiturient-footer p {
+    margin: 0;
+    font-size: 14px;
+}

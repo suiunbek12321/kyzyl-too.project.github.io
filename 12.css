@@ -1,0 +1,92 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Жыш берилуучу суроолор бөлүгү */
+.faq {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.question {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.question h3 {
+    margin-top: 0;
+}
+
+/* Онлайн жардам формасы */
+.help-form {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.help-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.help-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.help-form input, .help-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.help-form button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.help-form button:hover {
+    background-color: #ff6600;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}

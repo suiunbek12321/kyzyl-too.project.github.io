@@ -1,0 +1,80 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Сабактар жана мугалимдер */
+.teachers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.teacher {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teacher img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.teacher h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.teacher p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.teacher a {
+    text-decoration: none;
+    color: #004080;
+}
+
+.teacher a:hover {
+    color: #ff6600;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,62 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Башкы бөлүм */
+.standards-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #2196F3;
+    color: white;
+}
+
+.standards-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.standards-header p {
+    font-size: 18px;
+}
+
+/* Стандарттар бөлүмү */
+.national-standards {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.national-standards ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.national-standards li {
+    margin-bottom: 10px;
+}
+
+/* Кошумча маалымат бөлүмү */
+.additional-info {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Футер */
+.standards-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.standards-footer p {
+    margin: 0;
+    font-size: 14px;
+}

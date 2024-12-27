@@ -1,0 +1,85 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Башкы беттин стили */
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Жаңылыктар секциясы */
+.news {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.news h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.news ul li a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+}
+
+.news ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Галерея стили */
+.gallery {
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.slider img {
+    width: 300px; /* Сүрөттүн туурасы */
+    height: auto; /* Пропорцияны сактоо */
+    margin: 10px;
+    border-radius: 10px; /* Бурчтарды тегеректөө */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Сүрөткө көлөкө берүү */
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}

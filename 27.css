@@ -1,0 +1,74 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Башкы бөлүм */
+.partners-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #2196F3;
+    color: white;
+}
+
+.partners-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.partners-header p {
+    font-size: 18px;
+}
+
+/* Демөөрчүлөр жана өнөктөштөр бөлүмү */
+.sponsors, .partners {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.sponsors h2, .partners h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.logo-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sponsor, .partner {
+    text-align: center;
+    width: 250px;
+}
+
+.sponsor-logo, .partner-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sponsor p, .partner p {
+    font-size: 16px;
+}
+
+/* Футер */
+.partners-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.partners-footer p {
+    margin: 0;
+    font-size: 14px;
+}

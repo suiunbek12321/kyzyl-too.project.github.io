@@ -1,0 +1,84 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Башкы бөлүм */
+.annual-report-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.annual-report-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.annual-report-header p {
+    font-size: 18px;
+}
+
+/* Ишмердүүлүк бөлүмү */
+.activities {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.activities ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.activities li {
+    margin-bottom: 10px;
+}
+
+/* Жетишкендиктер бөлүмү */
+.achievements {
+    font-size: 18px;
+}
+
+.achievements ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.achievements li {
+    margin-bottom: 10px;
+}
+
+/* Келечектеги пландар бөлүмү */
+.future-plans {
+    font-size: 18px;
+}
+
+.future-plans ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.future-plans li {
+    margin-bottom: 10px;
+}
+
+/* Футер */
+.annual-report-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.annual-report-footer p {
+    margin: 0;
+    font-size: 14px;
+}

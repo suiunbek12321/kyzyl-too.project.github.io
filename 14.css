@@ -1,0 +1,83 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Башка стилизациялар */
+h1, h2 {
+    color: #4CAF50;
+}
+
+/* Сайттын башы */
+.school-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.school-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.school-header p {
+    font-size: 18px;
+}
+
+/* Секциялар */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Класстар, китепкана жана спорт залына сүрөттөр */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.school-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Китепкана жана спорт залындагы текст */
+.library, .gym {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.library p, .gym p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Футер */
+.school-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.school-footer p {
+    margin: 0;
+    font-size: 14px;
+}

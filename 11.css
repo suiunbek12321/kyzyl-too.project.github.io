@@ -1,0 +1,75 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Ресурстар бөлүгү */
+.resources, .online-materials {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.library {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.library img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.online-materials ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.online-materials li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.online-materials a {
+    text-decoration: none;
+    color: #004080;
+}
+
+.online-materials a:hover {
+    color: #ff6600;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}

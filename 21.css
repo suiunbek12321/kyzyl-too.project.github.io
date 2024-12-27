@@ -1,0 +1,78 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Башкы бөлүм */
+.uniform-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.uniform-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.uniform-header p {
+    font-size: 18px;
+}
+
+/* Форманын үлгүлөрү бөлүмү */
+.uniform-samples {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.uniform-samples p {
+    font-size: 16px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.uniform-image {
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+/* Сатып алуу боюнча маалымат */
+.purchase-info {
+    font-size: 18px;
+}
+
+.purchase-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.purchase-info li {
+    margin-bottom: 10px;
+}
+
+/* Футер */
+.uniform-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.uniform-footer p {
+    margin: 0;
+    font-size: 14px;
+}

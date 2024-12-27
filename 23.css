@@ -1,0 +1,70 @@
+/* Жалпы стилдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Башкы бөлүм */
+.sport-art-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sport-art-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.sport-art-header p {
+    font-size: 18px;
+}
+
+/* Спорттук иш-чаралар бөлүмү */
+.sports-events {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.sports-events ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sports-events li {
+    margin-bottom: 10px;
+}
+
+/* Коркем чыгармачылык бөлүмү */
+.art-events {
+    font-size: 18px;
+}
+
+.art-events ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.art-events li {
+    margin-bottom: 10px;
+}
+
+/* Футер */
+.sport-art-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.sport-art-footer p {
+    margin: 0;
+    font-size: 14px;
+}
